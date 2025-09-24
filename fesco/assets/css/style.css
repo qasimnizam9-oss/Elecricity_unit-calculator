@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #343a40;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #495057;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-area {
+    flex: 1;
+    padding: 20px;
+    background: #f8f9fa;
+    overflow-y: auto;
+}
